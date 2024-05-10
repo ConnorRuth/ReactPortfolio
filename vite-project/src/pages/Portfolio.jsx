@@ -1,20 +1,34 @@
-export default function Contact() {
+import '../styles/pages.css';
+export default function Portfolio() {
     return (
       <div>
         <h1>Portfolio Page</h1>
-        <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-          efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-          mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-          posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-          faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-          ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-          dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-          rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-        </p>
+        <div class="container">
+        <div class="mini-container">
+            <h3></h3>
+          <a href="https://connorruth.github.io/Horiseon-HW-w1/"alt="screenshot of a previous website worked on">
+          <img src="./assets/hw1-img.jpg"></img>
+          <div class="centered"> Refactoring </div></a>
+        </div>
+        <div class="mini-container">
+            <h3>ttrpg tracker</h3>
+          <a href="blank">
+          <img src="../assets.ttrpg-port-img.png"alt="screenshot"></img>
+          </a>
+        </div>
+        <div class="mini-container">
+            <h3></h3>
+          <a href="blank">
+          <img src="./assets/placeholder.jpg"alt="placeholder face image"></img>
+          <div class="centered"> Personal Projects </div></a>
+        </div>
+        <div class="mini-container">
+        <h3></h3>
+          <a href="blank">
+          <img src="./assets/placeholder.jpg"alt="placeholder face image"></img>
+          <div class="centered"> Personal Projects </div></a>
+        </div>
+      </div>
       </div>
     );
   }
