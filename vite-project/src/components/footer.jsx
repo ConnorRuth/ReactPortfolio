@@ -6,7 +6,7 @@ import '../styles/footer.css';
 function Footer() {
     const githubUrl = "https://github.com/ConnorRuth";
 return(
-    <footer class="footer">
+    <footer className="footer">
         <div>
         <IconContext.Provider value={{size: "50px", className: 'react-icons' }}>
             <Link to={githubUrl} target="_blank">
