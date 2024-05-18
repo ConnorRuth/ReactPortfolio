@@ -1,11 +1,12 @@
 import { Link, useLocation } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, React } from 'react';
 import '../styles/project.css'
 import ttrpgimage from '../assets/ttrpg-port-img.png'
-function Project() {
+//url, title, img 
+function Project(props) {
     const githubUrlRPG = 'https://github.com/ConnorRuth/ttrpg-tracker'
-    const HoverData = <Link to={githubUrlRPG} className='deLink'target="_blank">
-    TTRPGTracker
+    const HoverData = <Link to={props.url} className='deLink'target="_blank">
+    {props.title}
     </Link>;
     const [hover, setHover] = useState(false);
     const onHover = (event) => {
@@ -23,7 +24,7 @@ return(
         onMouseOver={(event) => onHover(event)}
         onMouseLeave={(event) => onHoverOver(event)}
         alt="image rpgwebsite"
-        src={ttrpgimage}
+        src={props.img}
         className="img-responsive"
       />
       {hover && <div onMouseOver={(event) => onHover(event)} className="overlay-link">{HoverData}</div>}
