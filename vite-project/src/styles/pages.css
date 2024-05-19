@@ -9,7 +9,7 @@ img{
     margin: 10px;
     display: inline-block;
 }
-h1{
+h1,h3{
     font-family: "Jersey 10", sans-serif;
     
 }
@@ -20,6 +20,14 @@ p{
     color: white;
     font-family: "Pixelify Sans", sans-serif;
     vertical-align: top;
+}
+ul{
+  padding:15px;
+    background-color: #1F0303;
+}
+li{
+  color: white;
+    font-family: "Pixelify Sans", sans-serif;
 }
 form{  
     font-family: "Pixelify Sans", sans-serif;
@@ -69,3 +77,23 @@ input[type=text], select {
   input[type=submit]:hover {
     background-color: #815e5e;
   }
+
+.download {
+    width: 15%;
+    padding: 6px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #A97070;
+    color:black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Micro 5 Charted", sans-serif;
+}
+.download:hover {
+  background-color: #815e5e;
+  color: #ccc;
+}

@@ -8,16 +8,12 @@ export default function About() {
         <h1>About Me</h1>
         <img src={selfie} alt="Photo of Connor Ruthven" style={{ width: '150px', height: '150px',}}></img>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-          ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-          non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-          ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-          rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-          tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-          porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-          vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus.
+         Hello there! I'm Connor, I have spent many of my past years personally 
+         developing skills of wide array areas having spent several years developing
+        graphic design skills, previous and current spent learning various programming languages.
+        Currently I'm proficent in Javasript with some past experience with C and Python(planning on returning to both after having, 
+        now developed a better grasp on programming as a whole). I love games and the design that 
+        goes into making people have enjoyable experiences with a service or activity.
         </p>
       </div>
     );

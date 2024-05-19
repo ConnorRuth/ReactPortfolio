@@ -1,16 +1,24 @@
 import '../styles/pages.css';
+import { Link } from 'react-router-dom';
+import resumePDF from '../assets/Connor_Resume.pdf'
+
 export default function Resume() {
+  
     return (
       <div>
         <h1>Resume Page</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        </p>
+        <Link className='download'
+         to={resumePDF} download="MyResume" target='_blank'
+        >My Resume
+        </Link>
+        <h3>Notable Skills:</h3>
+        <ul>
+            <li>nodeJS</li>
+            <li>adobe photoshop/illustrator</li>
+            <li>Excel</li>
+            <li>MySQL/mongoDb</li>
+            <li>Git</li>
+        </ul>
       </div>
     );
   }
