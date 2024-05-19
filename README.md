@@ -1,7 +1,6 @@
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 # ReactPortfolio
 
-# PWA-Text-Editor
 ## Table of Contents:
 1.[Description](##-Description)
 
