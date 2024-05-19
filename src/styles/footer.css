@@ -1,0 +1,17 @@
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #A97070;
+    padding: 2px;
+}
+.react-icons {
+    margin-left: 48%;
+    justify-content: center;
+    color: black;
+  }
+
+.react-icons:hover{
+    color: white
+}
